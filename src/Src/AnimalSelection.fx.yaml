@@ -5,7 +5,7 @@ AnimalSelection As screen:
 
     Label1 As label:
         Align: =Align.Center
-        Fill: =RGBA(204, 231, 246, 1)
+        Fill: =RGBA(232, 244, 217, 1)
         Height: =88
         Size: =25
         Text: ="What sounds do the animals make?"
