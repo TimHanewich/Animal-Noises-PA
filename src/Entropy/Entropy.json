@@ -1,61 +1,23 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {
-    "AnimalSelection": 3,
-    "App": 1,
-    "Button1": 6,
-    "Button1_1": 7,
-    "Button1_2": 8,
-    "Image1": 5,
-    "Label1": 4,
-    "Label2": 9
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/13/2022 19:00:52",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
-  "OldLogoFileName": "njv1tdpy.jpg",
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "button": 2,
-    "image": 1,
-    "label": 0
-  },
-  "PublishOrderIndices": {
-    "AnimalSelection": 0,
-    "App": 0,
-    "Button1": 2,
-    "Button1_1": 3,
-    "Button1_2": 4,
-    "Image1": 1,
-    "Label1": 0,
-    "Label2": 5
-  },
-  "ResourcesJsonIndices": {
-    "Image-SampleImage": 0
-  },
+  "OrderXMLTemplate": {},
+  "PublishOrderIndices": {},
+  "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.1467559,
-    "ControlCount": {
-      "button": 3,
-      "image": 1,
-      "label": 2,
-      "screen": 1
-    },
-    "DeserializationLoadTime": 0.4264455,
-    "ErrorCount": 0
-  },
-  "WasLocalDatabaseReferencesEmpty": true
+  "TemplateVersions": {}
 }
