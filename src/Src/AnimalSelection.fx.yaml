@@ -67,3 +67,15 @@ AnimalSelection As screen:
         Y: =352
         ZIndex: =6
 
+    Button1_3 As button:
+        Height: =43
+        OnSelect: |-
+            =Set(img, "https://cdn.britannica.com/55/174255-050-526314B6/brown-Guernsey-cow.jpg");
+            
+            Set(noise, "Moooo")
+        Text: ="Cow"
+        Width: =395
+        X: =858
+        Y: =410
+        ZIndex: =7
+
