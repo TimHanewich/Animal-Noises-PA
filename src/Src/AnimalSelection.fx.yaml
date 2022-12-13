@@ -1,0 +1,69 @@
+AnimalSelection As screen:
+    OnVisible: |-
+        =Set(img, "");
+        Set(noise, "")
+
+    Label1 As label:
+        Align: =Align.Center
+        Fill: =RGBA(204, 231, 246, 1)
+        Height: =88
+        Size: =25
+        Text: ="What sounds do the animals make?"
+        Width: =1366
+        ZIndex: =1
+
+    Image1 As image:
+        Height: =328
+        Image: =img
+        ImagePosition: =ImagePosition.Fill
+        Width: =318
+        X: =113
+        Y: =180
+        ZIndex: =2
+
+    Label2 As label:
+        Align: =Align.Center
+        Height: =51
+        Size: =20
+        Text: =noise
+        Width: =390
+        X: =77
+        Y: =534
+        ZIndex: =3
+
+    Button1 As button:
+        Height: =43
+        OnSelect: |-
+            =Set(img, "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=0.672xw:1.00xh;0.166xw,0&resize=640:*");
+            
+            Set(noise, "Woof woof!")
+        Text: ="Dog"
+        Width: =395
+        X: =858
+        Y: =226
+        ZIndex: =4
+
+    Button1_1 As button:
+        Height: =43
+        OnSelect: |-
+            =Set(img, "https://cdn.theatlantic.com/thumbor/yHhIvkBiGvKKubxVHTNXvU4nCKQ=/1x122:2554x1452/1200x625/media/img/mt/2017/06/shutterstock_319985324/original.jpg");
+            
+            Set(noise, "Meow")
+        Text: ="Cat"
+        Width: =395
+        X: =858
+        Y: =287
+        ZIndex: =5
+
+    Button1_2 As button:
+        Height: =43
+        OnSelect: |-
+            =Set(img, "https://cdn.britannica.com/39/95439-050-78B87F34/Adult-sheep-lambs.jpg");
+            
+            Set(noise, "Baaaa")
+        Text: ="Sheep"
+        Width: =395
+        X: =858
+        Y: =352
+        ZIndex: =6
+
